@@ -12,6 +12,8 @@ app.get('*', (req, res) => {
     res.status(404).send('<h1>404 Page</h1>')
 })
 
-app.listen(process.env.PORT)
+app.get()
+
+app.listen(process.env.PORT, console.log('Listening on port 3000'))
 
 

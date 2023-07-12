@@ -21,3 +21,5 @@ REST-Rant is an app where users can review restaurants.
 
 
 The places should have a name (string), city (string), state (string), cuisines (string) and a pic (string)
+**places table**
+Element Name        | Data Type        
